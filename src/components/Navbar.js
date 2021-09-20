@@ -1,5 +1,5 @@
-function Nav() {
-  return <nav className="App-nav"></nav>;
+function Navbar() {
+  return <nav className="App-navbar">Navbar</nav>;
 }
 
-export default Nav;
+export default Navbar;
