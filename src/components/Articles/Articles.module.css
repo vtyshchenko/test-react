@@ -1,0 +1,6 @@
+.articles {
+  grid-area: articles;
+  background-color: teal;
+  display: flex;
+  justify-content: flex-end;
+}

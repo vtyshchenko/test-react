@@ -1,9 +1,8 @@
 import "./App.css";
-import Articles from "./components/Articles";
-import Comments from "./components/Comments";
-import Footer from "./components/Footer";
-import Header from "./components/Header.js";
-import Navbar from "./components/Navbar";
+import Articles from "./components/Articles/Articles.js";
+import Footer from "./components/Footer/Footer.js";
+import Header from "./components/Header/Header.js";
+import Navbar from "./components/Navbar/Navbar.js";
 
 function App() {
   return (
@@ -11,7 +10,6 @@ function App() {
       <Header />
       <Navbar />
       <Articles />
-      <Comments />
       <Footer />
     </div>
   );
