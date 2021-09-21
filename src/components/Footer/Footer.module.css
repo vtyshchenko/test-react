@@ -1,4 +1,29 @@
 .footer {
   grid-area: footer;
   background-color: yellowgreen;
+
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.copyright {
+  color: blue;
+}
+
+.email {
+  text-decoration: none;
+  color: black;
+  font-style: normal;
+}
+
+.link:hover,
+.email:hover {
+  color: blue;
 }

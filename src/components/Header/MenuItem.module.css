@@ -1,9 +1,12 @@
 .link {
+  /* background-color: blue; */
   color: #61dafb;
+  padding: 20px 5px 20px 5px;
+  border-radius: 15px;
 }
 
 .link:nth-child(n + 2) {
-  margin-left: 15px;
+  margin-left: 10px;
 }
 .link:nth-child(7) {
   margin-left: 0;

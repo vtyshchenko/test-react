@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import MenuItemStyle from "./MenuItem.module.css";
 
 function MenuItem(props) {
